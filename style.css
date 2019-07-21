@@ -1,0 +1,630 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+body{
+	margin:0;
+	font-family:tahoma, arial;
+}
+/* top-head */
+.top-head{
+	margin:0;
+	text-transform:capitalize;
+	background:#FFFFFF;
+	font-family: 'Oswald', sans-serif;
+	
+}
+.container{
+	width:60%;
+	max-width:960px;
+	margin: auto;
+	overflow:hidden;
+	
+	
+}
+
+.phone{
+	float:left;
+	margin-right:10px;
+	
+	
+}
+.sms{
+	overflow:hidden;
+}
+
+
+.left-head{
+	float:left;
+	width:75%;
+	color:#a9a5a3;
+	font-size:10px;
+	
+}
+.right-head{
+	overflow:hidden;
+	width:25%;
+}
+.top-menu ul{
+	overflow:hidden;
+	margin:0;
+	padding:0;
+	
+	
+}
+.top-menu ul li{
+	float:left;
+	
+	list-style:none;
+	
+	margin-top:0px;
+	padding-top:8px;
+	padding-left:0px;
+	padding-bottom:8px;
+	margin-right:15px;
+}
+.top-menu ul li:last-child{
+margin-right:0
+}
+
+
+.top-menu ul li a{
+	text-decoration:none;
+	
+	color:#a9a5a3;
+	font-size:12px;
+	
+	
+}
+.top-menu ul li a:hover{
+	border-top:1px solid  #463f3a;
+	border-bottom:1px solid  #463f3a;
+	border-radius:10px;
+	padding-bottom:7px;
+	
+}
+.top-menu ul li a:hover{
+	color:#463f3a;
+}
+
+
+
+					/* main-header */
+					
+.main-header{
+	overflow:hidden;
+	background:#ffffff;
+	background-image:url("images/back.jpg");
+	background-repeat:no-repeat;
+	background-size:100%;
+	overflow:hidden;
+	text-transform:capitalize;
+	padding-bottom:20px;
+	padding-top:10px;
+	font-family: 'Oswald', sans-serif;
+	
+}
+
+
+.main-menu{
+	overflow:hidden;
+	width:65%;
+	float:left;
+}
+.shoes{
+	float:left;
+	width:26%;
+	background-image:url("images/logoshoes.png");
+	background-repeat:no-repeat;
+	
+	overflow:hidden;
+	
+	
+	overflow: hidden;
+	background-size: 15px;
+	background-position: 50% 80%;
+	padding-top: 16px;
+	text-transform:uppercase;
+}
+.shoes h1{
+	margin:0;
+	line-height:25px;
+	color:#463f3a;
+}
+.shoes p{
+	margin:0;
+	font-size:11px;
+	color:#a9a5a3;
+	
+}
+.box{
+	float:right;
+	overflow:hidden;
+	width:9%;
+	color:#463f3a;
+	background-image:url("images/icon.png");
+	background-repeat:no-repeat;
+	background-size:34%;
+	background-position: 98%;
+	font-size:11px;
+	margin-top:5px;
+}
+.main-menu ul{
+	margin:0;
+	margin-bottom:5px;
+}
+.main-menu ul li{
+	float:left;
+	list-style:none;
+	text-decoration:none;
+	margin-right:6px;
+	
+	padding:6px;
+	
+}
+.line{
+	border-bottom:0px solid #ffffff;
+	color:#c23616;
+}
+.main-menu ul li a{
+	color:#463f3a;
+	text-transform:uppercase;
+	font-size:12px;
+	
+	
+}
+
+.main-menu ul li:hover{
+	
+	border-bottom:1px groove #463f3a;
+	border-top:1px groove #463f3a;
+	border-radius:20px;
+
+}
+.main-menu ul li a:hover{
+	color:#a9a5a3;
+}
+
+.main-menu ul li .line:hover{
+	border-bottom:none;
+}
+/* .slider h1{ */
+	/* font-size:25px; */
+/* } */
+.main-slider{
+	margin:0;
+	background:#ffffff;
+	background-repeat:no-repeat;
+	font-family: 'Oswald', sans-serif;
+	color:#ffffff;
+	
+	
+}
+
+.slider{
+	width:100%;
+	font-family: 'Oswald', sans-serif;
+	background-image:url('images/shoesimg.jpg');
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-image:url('images/shoesimg.jpg');
+	position:relative;
+	overflow:hidden;
+	margin-top:20px;
+	min-height:330px;
+}
+.slider h1{
+	font-size:40px;
+	padding:55px;
+}
+.slider img{
+	position:absolute;
+	right:0;
+	top:35%;
+	overflow:hidden;
+	width:43%;
+}
+.about{
+	font-family: 'Oswald', sans-serif;
+	color:#463f3a;
+	background:#ffffff;
+	padding:5px 0;
+}
+
+
+.about .shiping{
+	float:left;
+	overflow:hidden;
+	width:27%;
+	padding:15px;
+	background-image:url("images/back.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.about .collection{
+	float:left;
+	overflow:hidden;
+	width:27%;
+	margin-left:19px;
+	padding:15px;
+	background-image:url("images/back.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.about .guarante{
+	float:right;
+	overflow:hidden;
+	width:27%;
+	padding:15px;
+	background-image:url("images/back.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.about h5{
+	font-size:15px;
+	margin:0 auto;
+}
+.about p{
+	margin:0 auto;
+	font-size:9px;
+}
+
+.about p span{
+	color:#eb2f06;
+	font-size:11px;
+}
+
+
+
+.list h1{
+	width: 44%;
+	color:#463f3a;
+	margin: 0 auto;
+	font-size:29px;
+	font-family:font-family: 'Oswald', sans-serif;
+	padding:20px 0;
+	position:relative;
+	background: #ffffff;
+	text-transform:uppercase;
+	z-index: 999;	
+}
+/* .list img{ */
+	/* width:60%; */
+	/* position:absolute; */
+	/* top:156%; */
+	/* margin-top:20px; */
+/* } */
+/* .list .shape1{ */
+	/* width:60%; */
+	/* position:absolute; */
+	/* top:157%; */
+/* } */
+.category .list-pic{
+	width:100%;
+	background:#ffffff;
+	overflow:hidden;
+}
+.category .list-pic img{
+	width: 32%;
+float: left;
+overflow: hidden;
+max-height: 150px;
+margin-right: 16px;
+}
+.category .list-pic .dog{
+	margin-right:0;
+}
+.about-category{
+	background:#ffffff;
+	width:100%;
+	overflow:hidden;
+	margin-left: 0;
+}
+
+.about-category .view1{
+	width: 32%;
+	float: left;
+	
+	overflow: hidden;
+	margin-right: 16px;
+}
+.about-category .view2{
+	width: 32%;
+	float: left;
+	
+	overflow: hidden;
+	margin-right: 16px;
+	
+}
+.about-category .view3{
+	width: 32%;
+	float: right;
+	overflow: hidden;
+}
+.about-category p{
+	font-size:10px;
+	color:#989898;
+}	
+.about-category h2{
+	width:100%;
+	text-transform:uppercase;
+	color:#463f3a;
+	font-family:font-family: 'Oswald', sans-serif;
+}
+.about-category b{
+	line-height:15px;
+	color:red;
+	font-size: 12px;
+}
+
+
+
+.arrivals .title{
+	background:#ffffff;
+	font-family: 'Oswald', sans-serif;
+	overflow:hidden;
+	margin:20px 0;
+	
+}
+.title h1{
+	width: 31%;
+	
+	margin: 0 auto;
+	font-family:font-family: 'Oswald', sans-serif;
+	font-size: 29px;
+	position:relative;
+	background: #ffffff;
+
+	z-index: 999;	
+}
+/* .title img{ */
+	/* width:60%; */
+	/* position:absolute; */
+	/* top:242%; */
+	/* margin-top:20px; */
+/* } */
+/* .title .shape{ */
+	/* width:60%; */
+	/* position:absolute; */
+	/* top:243%; */
+	
+/* } */
+.arrivals .cat-pic{
+	width:100%;
+	background:#ffffff;
+	overflow:hidden;
+}
+.arrivals .cat-pic img{
+	width: 23.5%;
+	float: left;
+	
+	overflow: hidden;
+	max-height: 120px;
+	margin-right:12px;
+}
+.arrivals .cat-pic .cat{
+	margin-right:0;
+}
+.about-arrivals{
+	background:#ffffff;
+	width:100%;
+	overflow:hidden;
+	margin-left: 0;
+}
+
+.about-arrivals .port1{
+	width: 24%;
+	float: left;
+	margin-right:10px;
+	overflow: hidden;
+	
+}
+.about-arrivals .port2{
+	width: 23.5%;
+	float: left;
+	margin-right:10px;
+	overflow: hidden;
+}
+.about-arrivals .port3{
+	width: 23.5%;
+	float: left;
+	margin-right:10px;
+	overflow: hidden;
+}
+.about-arrivals .port4{
+	width: 25%;
+	float: right;
+	
+	overflow: hidden;
+}
+.about-arrivals p{
+	font-size:10px;
+	color:#989898;
+}	
+.about-arrivals h5{
+	width: 90%;
+	padding: 4px;
+	background: #463f3a;
+	color: #ffffff;
+	text-align: center;
+}
+
+.product .total{
+	background:#ffffff;
+	font-family: 'Oswald', sans-serif;
+	overflow:hidden;
+	margin:20px 0;
+	
+}
+.total h1{
+	width: 30%;
+	color:#463f3a;
+	margin: 0 auto;
+	font-size:29px;
+	font-family:font-family: 'Oswald', sans-serif;
+	padding:0;
+	position:relative;
+	background: #ffffff;
+	text-transform:uppercase;
+	z-index: 999;
+	overflow:hidden;
+}
+/* .total img{ */
+	/* width:60%; */
+	/* position:absolute; */
+	/* top:318%; */
+	/* margin-top:20px; */
+/* } */
+/* .total .shape{ */
+	/* width:60%; */
+	/* position:absolute; */
+	/* top:319%; */
+	
+/* } */
+.product .shoes-pic{
+	width:100%;
+	background:#ffffff;
+	overflow:hidden;
+}
+.product .shoes-pic img{
+	width: 23.5%;
+	float: left;
+	
+	overflow: hidden;
+	max-height: 120px;
+	margin-right:12px;
+}
+.product .shoes-pic .cat{
+	margin-right:0;
+}
+.about-product{
+	background:#ffffff;
+	width:100%;
+	overflow:hidden;
+	margin-left: 0;
+}
+
+.about-product .tool1{
+	width: 24%;
+	float: left;
+	margin-right:10px;
+	overflow: hidden;
+	
+}
+.about-product .tool2{
+	width: 23.5%;
+	float: left;
+	margin-right:10px;
+	overflow: hidden;
+}
+.about-product .tool3{
+	width: 23.5%;
+	float: left;
+	margin-right:10px;
+	overflow: hidden;
+}
+.about-product .tool4{
+	width: 25%;
+	float: right;
+	
+	overflow: hidden;
+}
+.about-product p{
+	font-size:10px;
+	color:#989898;
+}	
+.about-product h5{
+	width: 90%;
+	padding: 4px;
+	background: #463f3a;
+	color: #ffffff;
+	text-align: center;
+	text-transform:capitalize;
+}
+
+
+.lost h1{
+	width: 50%;
+	color:#463f3a;
+	margin: 0 auto;
+	font-size:29px;
+	font-family:font-family: 'Oswald', sans-serif;
+	padding:20px 0;
+	position:relative;
+	background: #ffffff;
+	text-transform:uppercase;
+	z-index: 999;
+overflow:hidden;	
+}
+/* .lost img{ */
+	/* width:60%; */
+	/* position:absolute; */
+	/* top:156%; */
+	/* margin-top:20px; */
+/* } */
+/* .lost .shape1{ */
+	/* width:60%; */
+	/* position:absolute; */
+	/* top:157%; */
+/* } */
+.blog .lost-pic{
+	width:100%;
+	background:#ffffff;
+	overflow:hidden;
+}
+.blog .lost-pic img{
+	width: 32%;
+float: left;
+overflow: hidden;
+max-height: 150px;
+margin-right: 16px;
+}
+.blog .lost-pic .dog{
+	margin-right:0;
+}
+.about-blog{
+	background:#ffffff;
+	width:100%;
+	overflow:hidden;
+	margin-left: 0;
+}
+
+.about-blog .port1{
+	width: 32%;
+	float: left;
+	
+	overflow: hidden;
+	margin-right: 16px;
+}
+.about-blog .port2{
+	width: 32%;
+	float: left;
+	
+	overflow: hidden;
+	margin-right: 16px;
+	
+}
+.about-blog .port3{
+	width: 32%;
+	float: right;
+	overflow: hidden;
+}
+.about-blog p{
+	font-size:10px;
+	color:#989898;
+	text-transform:capitalize;
+}	
+.about-blog h2{
+	width:100%;
+	text-transform:uppercase;
+	color:#463f3a;
+	font-family:font-family: 'Oswald', sans-serif;
+	font-size:9px;
+}
+.about-blog b{
+	line-height:15px;
+	color:red;
+	font-size: 9px;
+}
+
+
+
+
